@@ -1,0 +1,8 @@
+### Note
+	The lexer haven't parser following statements better:
+	1> id = id / id (lexer will report syntax error at '/'.)
+	2> id.id() (lexer will parser '.' to "0.0",this is not the 
+			result that we want.)
+### solve
+	I think that we can use to the input beffer to solve this 
+	program.So ,we can rollback the current peak.

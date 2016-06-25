@@ -1,0 +1,14 @@
+lex.scan();
+float i2=.555
+pp2=111/2;
+a2a=1111;
+pp=111+112;//This is a annotion
+float i=2.234;/*
+               float */
+boolean b=false;
+float i3=2.
+do{int k=0;}while(b);
+if(!b && i>=0){
+	float f=i2;
+}
+/* end*/
