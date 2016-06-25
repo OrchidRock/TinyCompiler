@@ -10,7 +10,7 @@ public class Logical extends Expr{
 		super(t, null);
 		this.expr1=expr1;
 		this.expr2=expr2;
-		if(check(expr1.type, expr2.type)==null)
+		if((type=check(expr1.type, expr2.type))==null)
 			error("type error");
 	}
 	@Override
@@ -26,7 +26,10 @@ public class Logical extends Expr{
 		emitlable(a);
 		return temp;
 	}
-	private Type check(Type p1,Type p2){
+	/*
+	 * The check() method must to be public.
+	 */
+	public Type check(Type p1,Type p2){
 		if(p1==Type.Bool && p2==Type.Bool) return Type.Bool;
 		else return null;
 	}

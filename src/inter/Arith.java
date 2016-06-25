@@ -10,7 +10,7 @@ public class Arith extends Op{
 		super(tok, null);
 		this.expr1=expr1;
 		this.expr2=expr2;
-		Type type=Type.max(expr1.type, expr2.type);
+		type=Type.max(expr1.type, expr2.type);
 		if(type==null) error("type error");
 	}
 	public Expr gen(){

@@ -3,7 +3,7 @@ package test;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
-
+import lexer.*;
 public class LexerTest {
 	private static final String testFileName="src/input1.txt";
 	public static void main(String[] args) {

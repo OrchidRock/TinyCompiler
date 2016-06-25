@@ -1,4 +1,5 @@
 lex.scan();
+float array[];
 float i2=.555
 pp2=111/2;
 a2a=1111;

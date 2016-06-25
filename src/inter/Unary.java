@@ -11,7 +11,7 @@ public class Unary extends Op{
 	public Unary(Token tok, Expr expr) {
 		super(tok, null);
 		this.expr=expr;
-		Type type=Type.max(Type.Int, expr.type);
+		type=Type.max(Type.Int, expr.type);
 		if(type==null) error("type error");
 	}
 	public Expr gen(){
