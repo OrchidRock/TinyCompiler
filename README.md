@@ -2,12 +2,12 @@
 This is a simple compiler leading end.
 
 ### uml
-	This direction includes the uml classDiagram about this project.You 
+This direction includes the uml classDiagram about this project. You 
 can open the tinyCompilerUmlDiagram.uml by ArgoUML (my version is v0.34)
-	But I haven't finish it because I only begin to learning UML in this semester.
+But I haven't finish it because I only begin to learning UML in this semester.
 
 ### test
-	There is the test result for src/input2.txt:
+There is the test result for src/input2.txt:
 ```
 	L1:L4:	i = i + 1
 	L6:	t1 = i * 8
